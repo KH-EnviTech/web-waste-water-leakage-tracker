@@ -20,7 +20,7 @@ function initMap() {
     let map = new google.maps.Map(document.getElementById('map'), mapOptions)
 
     // Define map markers
-    let baseMarker = server_url + 'icons/markers/'
+    let baseMarker = server_url + 'images/icons/markers/'
     let icons = {
         low: {
             name: 'Low',
@@ -72,7 +72,6 @@ function initMap() {
     let legend = document.getElementById('legend')
     for (let key in icons) {
         let type = icons[key]
-        console.log(type)
         let name = type.name
         let icon = type.legendIcon
         let div = document.createElement('div')
