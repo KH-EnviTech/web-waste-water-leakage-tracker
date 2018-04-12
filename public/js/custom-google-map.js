@@ -65,7 +65,7 @@ function initMap() {
 
     // Add marker clustering
     let markerCluster = new MarkerClusterer(map, markers, {
-        imagePath: server_url + 'js/vendors/markerclusterer/images/m'
+        imagePath: server_url + 'vendors/markerclusterer/images/m'
     });
 
     // Add map legend

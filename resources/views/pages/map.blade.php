@@ -89,7 +89,7 @@
     </script>
 
     <script src="{{ asset('js/custom-google-map.js') }}"></script>
-    <script src="{{ asset('js/vendors/markerclusterer/src/markerclusterer.js') }}"></script>
+    <script src="{{ asset('vendors/markerclusterer/src/markerclusterer.js') }}"></script>
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3jPeBinj-48R5SB3cLd3gT-MgtTlQXM8&callback=initMap">
     </script>
